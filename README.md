@@ -26,15 +26,18 @@ Project is partly generated with [QuickAdminPanel](https://2019.quickadminpanel.
 
 ## How to Use
 
-1. Clone the repository with `git clone`
-2. Copy `.env.example` file to `.env` and edit database credentials there
-3. Run `composer install`
-4. Run `php artisan key:generate`
-5. Run `php artisan migrate --seed` (it has some seeded data for your testing)
-6. Launch the main URL
-7. If you want to login, click `Login` on top-right and use credentials `admin@admin.com` - `password`
-8. Agent's credentials are `agent1@agent1.com` - `password`
-9. Feel free to modify the admin and Technicians credentials accordingly.
+Clone the repository with `git clone`
+Run 'composer Update' 
+Run `composer install`
+Copy `.env.example` file to `.env` and edit database credentials there '⁠cp .env.example .env'
+Run '⁠php artisan key:generate'
+⁠Create a database at PHPMYADMIN: ‘computer-maintenance’
+Run `php artisan migrate --seed` (it has some seeded data for your testing)
+Run 'php artisan serve
+Launch the main URL
+If you want to login, click `Login` on top-right and use credentials `admin@admin.com` - `password`
+Agent's credentials are `agent1@agent1.com` - `password`
+Feel free to modify the admin and Technicians credentials accordingly.
     
 
 ## License
