@@ -2,7 +2,7 @@ Demo support ticketing project based on Laravel 8.
 
 Project is partly generated with [QuickAdminPanel](https://2019.quickadminpanel.com)
 
-**Author:** Isaac Zachary and Other DEFTEC Attachees
+**Author:** Zevai Duncan and Other DEFTEC Attachees
 
 **Project Name:** IT-Workshop Computer Maintenance System
 
